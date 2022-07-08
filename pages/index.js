@@ -69,13 +69,8 @@ export default function Home() {
             </h1>
             <h1
               ref={textThree}
-              className="text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
+              className="text-3xl mob:text-sm laptop:text-3xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
               {data.headerTaglineThree}
-            </h1>
-            <h1
-              ref={textFour}
-              className="text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
-              {data.headerTaglineFour}
             </h1>
           </div>
 
@@ -85,7 +80,7 @@ export default function Home() {
           className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
           ref={workRef}>
           <h1 className="text-2xl text-bold">Work.</h1>
-          <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-4">
+          <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-3 mob:grid-cols-1 laptop:grid-cols-3 gap-4">
             {data.projects.map((project, index) => (
               <WorkCard
                 key={index}

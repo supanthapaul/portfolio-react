@@ -3,18 +3,17 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "supantha",
   headerTaglineOne: "Hello 👋",
-  headerTaglineTwo: "I'm Chetan Verma - curious",
-  headerTaglineThree: "designer and devloper",
+  headerTaglineTwo: "I'm Supantha Paul",
+  headerTaglineThree: "Aspiring software developer with excellent problem-solving skills and the ability to work well in a team. Passionate about programming and enjoys writing about software development.",
   headerTaglineFour: " based in New Delhi, India.",
 
   socials: [
-    { title: "Github", link: "https://github.com/chetanverma16" },
-    { title: "LinkedIn", link: "https://www.linkedin.com/in/chetanverma7/" },
-    { title: "Twitter", link: "https://twitter.com/realchetanverma" },
-    { title: "Blog", link: "https://blog.chetanverma.com/" },
-    { title: "Email", link: "mailto:hello@chetanverma.com" },
+    { title: "Github", link: "https://github.com/supanthapaul" },
+    { title: "LinkedIn", link: "https://www.linkedin.com/in/supantha-paul-5977041b8/" },
+    { title: "Email", link: "mailto:supantha.paul2001@gmail.com" },
+    { title: "Resume", link: "/resume.pdf", type: "primary-diffuse" },
   ],
 
   // End Header Details -----------------------
