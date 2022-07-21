@@ -7,7 +7,7 @@ export default {
   headerTaglineOne: "Hello 👋",
   headerTaglineTwo: "I'm Supantha Paul",
   headerTaglineThree: "Aspiring software developer with excellent problem-solving skills and the ability to work well in a team. Passionate about programming and enjoys writing about software development.",
-  headerTaglineFour: " based in New Delhi, India.",
+  headerTaglineFour: " based in West Bengal, India.",
 
   socials: [
     { title: "Github", link: "https://github.com/supanthapaul" },
