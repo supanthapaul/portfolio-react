@@ -9,7 +9,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
         className="group overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-95 mob:h-48"
         style={{ height: "400px" }}>
         <img alt={name} className="h-full w-full object-cover" src={img}></img>
-				<div class="absolute w-full py-2.5 bottom-0 inset-x-0 bg-gray-800 bg-opacity-50 text-white text-md leading-4 transition ease-in-out delay-150 opacity-0 group-hover:opacity-100 duration-300">this is a text</div>
+				<div className="absolute w-full py-2.5 bottom-0 inset-x-0 bg-gray-800 bg-opacity-50 text-white text-md leading-4 transition ease-in-out delay-150 opacity-0 group-hover:opacity-100 duration-300">this is a text</div>
       </div>
       <h1 className="mt-5 text-3xl font-medium">
         {name ? name : "Project Name"}
